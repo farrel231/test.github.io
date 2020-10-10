@@ -60,11 +60,11 @@ header{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 	padding: 10px 80px;
@@ -74,7 +74,7 @@ header{
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	-webkit-transform: translateY(-50px);
-	        transform: translateY(-50px);
+	transform: translateY(-50px);
 }
 
 header.sticky{
@@ -84,7 +84,7 @@ header.sticky{
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	-webkit-transform: translateY(0px);
-	        transform: translateY(0px);
+	transform: translateY(0px);
 }
 
 header .logo{
@@ -105,11 +105,11 @@ header ul{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	font-weight: bold;
 }
 
@@ -140,77 +140,6 @@ header.sticky ul li a:hover{
 	color: red;
 }
 
-.navigation{
-	background: white;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	opacity: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	visibility: hidden;
-	-webkit-transition: 0.2s;
-	transition: 0.2s;
-	font-family: 'Poppins', sans-serif;
-}
-
-.navigation.active{
-	z-index: 3;
-	opacity: 1;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	visibility: visible;
-	position: fixed;
-}
-
-.navigation.active .close{
-	background: url(img/close.png);
-	background-size: 25px;
-	background-position: center;
-	background-repeat: no-repeat;
-	cursor: pointer;
-	top: 25px;
-	right: 25px;
-}
-
-.navigation ul{
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-}
-
-.navigation ul li{
-	list-style: none;
-}
-
-.navigation ul li a{
-	display: inline-block;
-	color: rgba(0,0,0,0.8);
-	font-size: 2em;
-	text-decoration: none;
-	font-weight: 300;
-}
-
-
 .container{
 	max-width: 1080px;
 	margin: 20px auto;
@@ -239,23 +168,14 @@ header.sticky ul li a:hover{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	max-width: 1080px;
 	margin: 20px auto;
 }
-
-.logo-judul .toggle.active{
-		z-index: 3;
-		background: url(img/close.png);
-		background-size: 25px;
-		background-position: center;
-		background-repeat: no-repeat;
-		cursor: pointer;
-	}
 
 .logo-judul ul{
 	max-width: 1080px;
@@ -264,11 +184,11 @@ header.sticky ul li a:hover{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	font-weight: bold;
 }
 
@@ -306,7 +226,7 @@ header.sticky ul li a:hover{
 	height: auto;
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.55" /><feFuncG type="linear" slope="0.55" /><feFuncB type="linear" slope="0.55" /></feComponentTransfer></filter></svg>#filter');
 	-webkit-filter: brightness(55%);
-	        filter: brightness(55%);
+	filter: brightness(55%);
 	filter: progid:DXImageTransform.Microsoft.Light();
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
@@ -323,31 +243,31 @@ header.sticky ul li a:hover{
 
 .left .swiper-container .swiper-wrapper .swiper-slide img:hover{
 	-webkit-transform: scale(1.2);
-	        transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .left .sci{
 	position: fixed;
-	bottom: 30%;
-	left: 50px;
+	bottom: 25%;
+	left: 20px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
 	-webkit-filter: grayscale(1);
-	        filter: grayscale(1);
+	filter: grayscale(1);
 	-webkit-filter: gray;
-	        filter: gray;
+	filter: gray;
 }
 
 .left .sci li{
@@ -358,19 +278,19 @@ header.sticky ul li a:hover{
 	display: inline-block;
 	text-decoration: none;
 	-webkit-transform: scale(0.7);
-	        transform: scale(0.7);
+	transform: scale(0.7);
 	-webkit-transition: .3s;
 	transition: .3s;
 }
 
 .left .sci li a:hover{
 	-webkit-transform: scale(0.85);
-	        transform: scale(0.85);
+	transform: scale(0.85);
 	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="-0.18109999999999998 1.0728 0.10830000000000001 0 0 0.3189 0.5728 0.10830000000000001 0 0 0.3189 1.0728 -0.3917 0 0 0 0 0 1 0" /></filter></svg>#filter');
 	-webkit-filter: grayscale(1.5);
-	        filter: grayscale(1.5);
+	filter: grayscale(1.5);
 	-webkit-filter: gray;
-	        filter: gray;
+	filter: gray;
 }
 
 .middle{
@@ -436,7 +356,7 @@ header.sticky ul li a:hover{
 
 .right .right-content img:hover{
 	-webkit-transform: scale(1.1);
-	        transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .right-content .title{
@@ -474,7 +394,7 @@ header.sticky ul li a:hover{
 }
 
 .footer{
-	padding: 40px 180px 10px;
+	padding: 40px 100px 0;
 	width: 100%;
 	background: rgba(0,10,10,0.8);
 	color: rgba(255,255,255,0.8);
@@ -493,9 +413,11 @@ header.sticky ul li a:hover{
 	color: rgba(255,255,255,0.8);
 	padding: 10px 0 10px;
 	text-align: center;
+	font-size: 12px;
 }
 
 .footer .garis{
+	padding: 10px 0 50px;
 	border-bottom: 1px solid rgba(255,255,255,0.3);
 }
 
@@ -519,6 +441,12 @@ header.sticky ul li a:hover{
 	color: rgba(255,255,255,1);
 }
 
+.navigation{
+	display: none;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
 @media screen and (max-width: 1080px){
 	.container{
 		width: 100%;
@@ -535,9 +463,6 @@ header.sticky ul li a:hover{
 		padding: 1% 4%;
 		width: auto;
 		float: none;
-	}
-	.sci{
-		visibility: hidden;
 	}
 	.logo-judul{
 		padding: 20px 30px;
@@ -557,13 +482,16 @@ header.sticky ul li a:hover{
 	}
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 760px) {
 	.header, .footer{
 		/*text-align: center;*/
 	}
 	.left{
 		width: 50%;
 		float: none;
+	}
+	.sci{
+		visibility: hidden;
 	}
 	.middle{
 		width: auto;
@@ -574,10 +502,7 @@ header.sticky ul li a:hover{
 		float: none;
 	}
 	.footer{
-		padding: 40px 80px 10px;
-	}
-	.sci{
-		visibility: hidden;
+		padding: 40px 50px 0;
 	}
 	header ul{
 		visibility: hidden;
@@ -620,6 +545,14 @@ header.sticky ul li a:hover{
 		background-repeat: no-repeat;
 		cursor: pointer;
 	}
+	.toggle.active{
+		z-index: 3;
+		background: url(img/close.png);
+		background-size: 25px;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+	}
 
 	.toggle.active{
 		z-index: 3;
@@ -628,6 +561,75 @@ header.sticky ul li a:hover{
 		background-position: center;
 		background-repeat: no-repeat;
 		cursor: pointer;
+	}
+	.navigation{
+		background: white;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		visibility: hidden;
+		-webkit-transition: 0.2s;
+		transition: 0.2s;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	.navigation.active{
+		z-index: 3;
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		visibility: visible;
+		position: fixed;
+	}
+
+	.navigation.active .close{
+		background: url(img/close.png);
+		background-size: 25px;
+		background-position: center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+		top: 25px;
+		right: 25px;
+	}
+
+	.navigation ul{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.navigation ul li{
+		list-style: none;
+	}
+
+	.navigation ul li a{
+		display: inline-block;
+		color: rgba(0,0,0,0.8);;
+		font-size: 2em;
+		text-decoration: none;
+		font-weight: 300;
 	}
 }
 
