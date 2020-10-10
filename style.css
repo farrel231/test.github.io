@@ -78,6 +78,7 @@ header{
 }
 
 header.sticky{
+	background: white;
 	padding: 10px 80px;
 	visibility: visible;
 	opacity: 1;
