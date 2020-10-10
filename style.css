@@ -141,6 +141,7 @@ header.sticky ul li a:hover{
 }
 
 .navigation{
+	background: white;
 	position: absolute;
 	top: 0;
 	left: 0;
