@@ -7,16 +7,11 @@
 }
 
 body{
-	
-
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
-	background:white;
-	
-	
 }
 
-p
+p{
 	margin-bottom: 20px;
 	line-height: 1.6em;
 	color: rgba(0,0,0,0.8);
@@ -84,7 +79,6 @@ header{
 
 header.sticky{
 	padding: 10px 80px;
-	background: white;
 	visibility: visible;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -151,7 +145,6 @@ header.sticky ul li a:hover{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #fff;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -228,7 +221,6 @@ header.sticky ul li a:hover{
 	max-width: 1080px;
 	position: relative;
 	margin: 20px auto;
-	background: #ffe;
 	color: rgba(0,0,0,0.8);
 	letter-spacing: 4px;
 	font-family: 'Ubuntu', sans-serif;
@@ -237,7 +229,6 @@ header.sticky ul li a:hover{
 .logo-judul{
 	z-index: 5;
 	border-radius: 9px;
-	background: #ffe;
 	color: rgba(0,0,0,0.8);
 	padding: 15px 0px 10px;
 	letter-spacing: 4px;
@@ -382,7 +373,6 @@ header.sticky ul li a:hover{
 
 .middle{
 	width: 500px;
-	background: #ffe;
 	padding: 15px 20px;
 	margin: 10px;
 	float: left;
@@ -422,7 +412,6 @@ header.sticky ul li a:hover{
 	margin: 10px;
 	padding: 10px 15px;
 	float: left;
-	background: #ffe;
 	box-shadow: 1px 1px 8px rgba(190, 190, 190, 0.05),
 	-1px -1px 8px rgba(0, 0, 0, 0.1);
 	
@@ -648,7 +637,6 @@ header.sticky ul li a:hover{
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
-	background: #fff;
 
 	/* Center slide text vertically */
 	display: -webkit-box;
