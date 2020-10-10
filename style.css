@@ -7,9 +7,13 @@
 }
 
 body{
+	
 
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
+	background:white;
+	
+	
 }
 
 p
@@ -80,7 +84,7 @@ header{
 
 header.sticky{
 	padding: 10px 80px;
-	background: #ffd;
+	background: white;
 	visibility: visible;
 	opacity: 1;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
